@@ -24,4 +24,5 @@ Here are the bug reports for each of the non-compliant tested libraries:
     - [MessageUI](https://stackoverflow.com/questions/69213585/mfmailcomposeviewcontroller-not-displaying-recipients-for-internationalized-emai)
 - Windows
   - PHP
-    - [mail]()
+    - [mail](https://bugs.php.net/bug.php?id=81615)
+    - [cURL](https://bugs.php.net/bug.php?id=81616)
