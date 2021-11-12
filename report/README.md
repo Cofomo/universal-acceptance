@@ -12,7 +12,7 @@ The UA conformance detailed results are breakdown by platforms:
 
  - [iOS](./ios-test-results.html)
  - [Android](./android-test-results.html)
- - [PHP Windows 10](./windows-test-results.html)
+ - [PHP on Windows 10](./windows-test-results.html)
  - [PHP on Linux](./php-linux-test-results.html)
 
 ## Bug Reports
@@ -26,3 +26,11 @@ Here are the bug reports for each of the non-compliant tested libraries:
   - PHP
     - [mail](https://bugs.php.net/bug.php?id=81615)
     - [cURL](https://bugs.php.net/bug.php?id=81616)
+
+### Windows note
+
+We log only two bug reports for two PHP libraries on Windows. The other libraries behave the same way on Linux & Windows. 
+
+On Linux, the PHP mail extension uses sendmail which provides for the SMTPUTF8 extension since version 8.17. On Windows, the PHP mail extension is the Mail Transfer Agent (MTA) and would be responsible to send the SMTPUTF8 flag. 
+
+Unfortunatly, the cURL extension contained in the PHP Windows binaries is compiled with the old version libidn instead of libidn2. This causes cURL to respect the IDNA2003 protocol instead of IDNA2008. This issue doesn't occur on default PHP installations on Linux.
