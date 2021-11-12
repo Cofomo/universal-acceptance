@@ -22,10 +22,21 @@ Here are the bug reports for each of the non-compliant tested libraries:
 - iOS
   - Swift
     - [MessageUI](https://stackoverflow.com/questions/69213585/mfmailcomposeviewcontroller-not-displaying-recipients-for-internationalized-emai)
+    - [URL in URLSession & Alamofire](https://stackoverflow.com/questions/69945768/swift-url-returns-nil-when-the-url-contains-an-internationalized-domain-name-id)
 - Windows
   - PHP
     - [mail](https://bugs.php.net/bug.php?id=81615)
     - [cURL](https://bugs.php.net/bug.php?id=81616)
+
+### iOS note
+
+The bug report on MessageUI & URLSession points to a stackoverflow, since Apple's proprietary bug reporting tool (called Feedback Assistant) maintains reports private
+between developers and the company. 
+
+The bug is registered at both place: stackoverflow & Feedback Assistant for the benefits of the community:
+
+![Feedback Assistant's screenshot](messageui_bug_report.png)
+
 
 ### Windows note
 
@@ -34,3 +45,4 @@ We log only two bug reports for two PHP libraries on Windows. The other librarie
 On Linux, the PHP mail extension uses sendmail which provides for the SMTPUTF8 extension since version 8.17. On Windows, the PHP mail extension is the Mail Transfer Agent (MTA) and would be responsible to send the SMTPUTF8 flag. 
 
 Unfortunatly, the cURL extension contained in the PHP Windows binaries is compiled with the old version libidn instead of libidn2. This causes cURL to respect the IDNA2003 protocol instead of IDNA2008. This issue doesn't occur on default PHP installations on Linux.
+
