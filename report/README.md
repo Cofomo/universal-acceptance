@@ -10,10 +10,10 @@ The [report](https://cofomo728.sharepoint.com/:w:/s/QDEV-Viagenie/Ef-gcdOZ6NVLsP
 
 The UA conformance detailed results are breakdown by platforms:
 
- - [Windows 10](./windows-test-results.html)
  - [iOS](./ios-test-results.html)
  - [Android](./android-test-results.html)
- - [Php on Linux](./php-linux-test-results.html)
+ - [PHP Windows 10](./windows-test-results.html)
+ - [PHP on Linux](./php-linux-test-results.html)
 
 ## Bug Reports
 
