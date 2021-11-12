@@ -27,6 +27,13 @@ Here are the bug reports for each of the non-compliant tested libraries:
   - PHP
     - [mail](https://bugs.php.net/bug.php?id=81615)
     - [cURL](https://bugs.php.net/bug.php?id=81616)
+- Android
+  - Kotlin
+    - [Jakarta Mail](https://github.com/eclipse-ee4j/mail/issues/589)
+    - [HttpUrlConnection (Android)](https://issuetracker.google.com/issues/206015971)
+    - [OkHttp](https://github.com/square/okhttp/issues/6910)
+    - [Fuel](https://github.com/kittinunf/fuel/issues/819)
+    - [Apache HttpClient](https://issues.apache.org/jira/browse/HTTPCLIENT-2185)
 
 ### iOS note
 
@@ -46,3 +53,10 @@ On Linux, the PHP mail extension uses sendmail which provides for the SMTPUTF8 e
 
 Unfortunatly, the cURL extension contained in the PHP Windows binaries is compiled with the old version libidn instead of libidn2. This causes cURL to respect the IDNA2003 protocol instead of IDNA2008. This issue doesn't occur on default PHP installations on Linux.
 
+
+### Android note
+
+Volley is developed by Google and is part of Android, moreover, it uses HttpUrlConnection therefore the HttpUrlConnection
+bug report is sufficient to cover Volley compliance.
+
+The same goes for Retrofit that is using OkHttp stack and utils and is maintained by the same company.
