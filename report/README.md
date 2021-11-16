@@ -27,6 +27,15 @@ Here are the bug reports for each of the non-compliant tested libraries:
   - PHP
     - [mail](https://bugs.php.net/bug.php?id=81615)
     - [cURL](https://bugs.php.net/bug.php?id=81616)
+- Linux
+  - PHP
+    - [cURL]()
+- Linux & Windows
+  - PHP
+    - [intl](https://bugs.php.net/bug.php?id=81628)
+    - [Symfony HttpClient](https://github.com/symfony/symfony/issues/44091)
+    - [Symfony Mailer IDN2008 compliance](https://github.com/symfony/symfony/issues/44092)
+    - [Symfony Mailer RFC](https://github.com/symfony/symfony/issues/44094)
 - Android
   - Kotlin
     - [Jakarta Mail](https://github.com/eclipse-ee4j/mail/issues/589)
@@ -64,3 +73,7 @@ Volley is developed by Google and is part of Android, moreover, it uses HttpUrlC
 bug report is sufficient to cover Volley compliance.
 
 The same goes for Retrofit that is using OkHttp stack and utils and is maintained by the same company.
+
+### PHP Mailer note
+
+The PHP Mailer maintainer is well aware of EAI and already got many bug reports about that. See [the latest one](https://github.com/PHPMailer/PHPMailer/issues/1440) where he mentions others.
