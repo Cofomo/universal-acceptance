@@ -44,6 +44,9 @@ The bug is registered at both place: stackoverflow & Feedback Assistant for the 
 
 ![Feedback Assistant's screenshot](messageui_bug_report.png)
 
+For URLSession & Alamofire, the bug seems to comes from the open-source version of the Foundation framework. 
+We thus log the bug also on the Swift open-source bug tracker: https://bugs.swift.org/browse/SR-15487
+
 
 ### Windows note
 
