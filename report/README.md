@@ -29,9 +29,6 @@ Here are the bug reports for each of the non-compliant tested libraries:
   - PHP
     - [mail](https://bugs.php.net/bug.php?id=81615)
     - [cURL](https://bugs.php.net/bug.php?id=81616)
-- Linux
-  - PHP
-    - [cURL]()
 - Linux & Windows
   - PHP
     - [intl](https://bugs.php.net/bug.php?id=81628)
