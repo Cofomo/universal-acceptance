@@ -6,7 +6,9 @@ This page describes the latest one.
 
 ## 2021 Test Run
 
-The [report](https://cofomo728.sharepoint.com/:w:/s/QDEV-Viagenie/Ef-gcdOZ6NVLsPI7G-8rH1gBpWSVkwmKtnQU_o3p4BkOQw?e=UKRmzJ) contains the information about the methodology used, the tested languages and libraries, conformance level of the libraries and recommendations for developers.
+The [report](./UA-language-testing-20210920.docx) contains the information about the methodology used, the tested languages and libraries, conformance level of the libraries and recommendations for developers.
+
+There is also a PowerPoint [presentation](./UA-language-testing-20210920.pptx).
 
 The UA conformance detailed results are breakdown by platforms:
 
