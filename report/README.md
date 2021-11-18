@@ -32,6 +32,7 @@ Here are the bug reports for each of the non-compliant tested libraries:
 - Linux & Windows
   - PHP
     - [intl](https://bugs.php.net/bug.php?id=81628)
+    - [PHP Mailer](https://github.com/PHPMailer/PHPMailer/issues/2563)
     - [Symfony HttpClient](https://github.com/symfony/symfony/issues/44091)
     - [Symfony Mailer IDN2008 compliance](https://github.com/symfony/symfony/issues/44092)
     - [Symfony Mailer RFC5322](https://github.com/symfony/symfony/issues/44094)
@@ -76,4 +77,4 @@ The same goes for Retrofit that is using OkHttp stack and utils and is maintaine
 
 ### PHP Mailer note
 
-The PHP Mailer maintainer is well aware of EAI and already got many bug reports about that. See [the latest one](https://github.com/PHPMailer/PHPMailer/issues/1440) where he mentions others.
+The PHP Mailer maintainer is well aware of EAI and already got many bug reports about that. See [the latest one](https://github.com/PHPMailer/PHPMailer/issues/1440) where he mentions others therefore no bug additional bug for EAI support has been reported.
