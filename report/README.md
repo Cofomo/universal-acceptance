@@ -34,7 +34,8 @@ Here are the bug reports for each of the non-compliant tested libraries:
     - [intl](https://bugs.php.net/bug.php?id=81628)
     - [Symfony HttpClient](https://github.com/symfony/symfony/issues/44091)
     - [Symfony Mailer IDN2008 compliance](https://github.com/symfony/symfony/issues/44092)
-    - [Symfony Mailer RFC](https://github.com/symfony/symfony/issues/44094)
+    - [Symfony Mailer RFC5322](https://github.com/symfony/symfony/issues/44094)
+    - [Symfony Mailer RFC6531](https://github.com/symfony/symfony/issues/44136)
 - Android
   - Kotlin
     - [Jakarta Mail](https://github.com/eclipse-ee4j/mail/issues/589)
